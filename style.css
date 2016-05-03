@@ -1,0 +1,223 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'myriad-pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+html {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) ),
+    url('bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+}
+.wander-img {
+  width: 321px;
+  height: 34px;
+  background: url('WANDERLIFT.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  transition: min-height 0.3s ease;
+}
+
+.hero .hero-content {
+  color: #fff;
+  padding: 20px 10px 70px;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  transition: padding 0.3s ease;
+}
+
+.hero .hero-title {
+  font-weight: 400;
+  font-size: 45px;
+  margin: 15px 0 20px;
+}
+
+.hero .hero-subtitle {
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.low-foot {
+  position: absolute;
+  bottom: -600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.low-foot-content {
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 700px;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.nowrap {
+  white-space:nowrap;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 350px;
+  max-width: 400px;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  padding: 20px 30px;
+  opacity: 0.9;
+  margin: 5px 3px;
+  border-width: 5px;
+  border-style: solid;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 1.0;
+}
+
+/* Colors */
+.btn.red {
+  border-color: #DA113D;
+  color: #DA113D;
+}
+.btn.red.fill {
+  background-color: #DA113D;
+  color: #fff;
+}
+
+.btn.orange {
+  border-color: #F68268;
+  color: #F68268;
+}
+.btn.orange.fill {
+  background-color: #F68268;
+  color: #fff;
+}
+
+.btn.yellow {
+  border-color: #F4D50D;
+  color: #F4D50D;
+}
+.btn.yellow.fill {
+  background-color: #F4D50D;
+  color: #fff;
+}
+
+.btn.green {
+  border-color: #4CC601;
+  color: #4CC601;
+}
+.btn.green.fill {
+  background-color: #4CC601;
+  color: #fff;
+}
+
+.btn.blue {
+  border-color: #0F7BDA;
+  color: #0F7BDA;
+}
+.btn.blue.fill {
+  background-color: #0F7BDA;
+  color: #fff;
+}
+
+.btn.purple {
+  border-color: #865BC3;
+  color: #865BC3;
+}
+.btn.purple.fill {
+  background-color: #865BC3;
+  color: #fff;
+}
+
+.btn.brown {
+  border-color: #89705D;
+  color: #89705D;
+}
+.btn.brown.fill {
+  background-color: #89705D;
+  color: #fff;
+}
+
+.btn.black {
+  border-color: #000;
+  color: #000;
+}
+.btn.black.fill {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn.white {
+  border-color: #FFF;
+  color: #FFF;
+}
+.btn.white.fill {
+  background-color: #FFF;
+  color: #000;
+}
+
+.btn.disabled {
+  border-color: #E9E9E9;
+  color: #E9E9E9;
+  opacity: 1;
+  cursor: default;
+}
+.btn.fill.disabled {
+  background-color: #E9E9E9;
+  color: #fff;
+}
