@@ -364,7 +364,7 @@ footer ul li {
 @media screen and (max-device-width: 800px) {
   .jumbotron {
     background-color: #3FA1C6;
-    background-image: url('assets/headerimage_1.png');
+    background-image: url('assets/headerImage_1.png');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
