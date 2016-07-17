@@ -65,6 +65,19 @@ video {
 }
 
 input[type="submit"], .jumbotron input[type=text], .jumbotron input[type=email] {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button; /* for input */
+  -webkit-user-select: none; /* for button */
+     -moz-user-select: none;
+      -ms-user-select: none;
+
   height: 40px;
   width: 150px;
   text-align: center;
@@ -339,7 +352,7 @@ footer ul li {
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 390px) {
   .footer-left, .footer-right {
     float: none;
     margin: 0 auto;
@@ -348,9 +361,12 @@ footer ul li {
   }
 }
 
-@media screen and (max-device-width: 800px) {
+@media screen and (max-width: 800px) {
   .jumbotron {
-    background: url('assets/headerimage_1.png') #3FA1C6 no-repeat right center fixed;
+    background-color: #3FA1C6;
+    background-image: url('assets/headerimage_1.png');
+    background-position: right center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
   #bgvid { display: none; }
