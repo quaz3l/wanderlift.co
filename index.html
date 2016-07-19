@@ -208,6 +208,12 @@
   });
 
   function showLocationForm() {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'EmailFlow',
+      eventAction: 'Focus Email Input'
+    });
+
     var loc = document.getElementById("show-field-1");
     loc.removeAttribute("class");
     loc.className = "classyShow";
@@ -215,6 +221,12 @@
   }
 
   function showNameForm() {
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'EmailFlow',
+      eventAction: 'Focus Location Input'
+    });
+
     var loc = document.getElementById("show-field-2");
     loc.removeAttribute("class");
     loc.className = "classyShow";
