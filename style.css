@@ -25,6 +25,7 @@ a:hover {
 
 a.no-line {
   border-bottom: none;
+  vertical-align: middle;
 }
 
 a.no-line:hover {
