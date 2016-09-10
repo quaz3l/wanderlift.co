@@ -19,6 +19,18 @@ a:hover {
   transition: all 0.3s ease;
 }
 
+.show-field-3 {
+  text-align: center;
+}
+
+a.no-line {
+  border-bottom: none;
+}
+
+a.no-line:hover {
+  border-bottom: none;
+}
+
 .container {
   padding-top: 30px;
   padding-bottom: 30px;
