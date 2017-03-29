@@ -1,0 +1,42 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+header {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  margin-top: 3em;
+  margin-bottom: 0.1em;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0.1em;
+}
+p {
+  font-weight: 200;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #2E3236;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+footer a {
+  color: #F7F7ED;
+  margin: 1em;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: all 333ms;
+}
+footer a:hover {
+  color: lime;
+}
